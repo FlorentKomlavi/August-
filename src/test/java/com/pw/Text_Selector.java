@@ -15,7 +15,7 @@ public class Text_Selector {
         try (Playwright pw = Playwright.create())
         {
             BrowserType browsertype = pw.chromium();
-            Browser browser = browsertype.launch(new BrowserType.LaunchOptions().setHeadless(false).setSlowMo(2000));
+            Browser browser = browsertype.launch(new BrowserType.LaunchOptions().setHeadless(false).setSlowMo(3000));
             Page page = browser.newPage();
             page.navigate(home);
 
