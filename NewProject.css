@@ -2,18 +2,19 @@
 *{ box-sizing: border-box;
   margin: auto;
   padding: 0;
-  
+  width:100%;
   }
 
 header  {
   font-family:'Times New Roman', Times, serif;
-  font-size: 35px;
+  font-size: auto px;
 	padding: 10px;
   font-weight: bold;
   text-align: center;
   height: none;
   background-color: #74E291;
   margin-top: 0.2em;
+  background-image:url("lettuef.jpg");
   
   background-position:center;
   color:#211C6A;
@@ -33,9 +34,10 @@ hr {
 
 body 	{ 
   margin: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color:none;
+  width: auto;
+  height: auto;
+  background-color:rgb(195, 226, 154);
+  background-image: url("onion.jpg");
   font-family: Verdana, Arial, sans-serif;
   margin-left: 0.10em;
   margin: right 5px;
@@ -66,7 +68,6 @@ li{
   padding: 10px;
 }
 main{
-  background-color:#DDF7E3 ;
   margin: 0 auto;
   font-family:'Times New Roman', Times, serif;
   
@@ -88,7 +89,8 @@ p {
   text-align: center;
 }
 img{
-  text-align: center;
+  text-align: auto;
+ 
 }
 /*section{
  justify-content: center;
@@ -100,24 +102,29 @@ height: 50px;
 background-color: yellow;
 padding:20px; margin: 1px; border: 1px solid #000033; } --> */
 
-/* div.content{ 
-float:none;
-margin:1px;
-background-size: none;
+ input{
+  height: 25px;
+  width: 90px;
+ }
+ #inputsearch{
+  float: right;
+  font-size: 0.9 em;
+ }
+#submitsearch{
+  float: right;
+  font-size: 0.9 em;
+}
 
-} */
 div {
- 
-  width:500px;
-  height: 400px;
- 
-  border: #0d0d0c solid;
-  background-color: #a656cc;
+  border: #0d0d0c ;
+  background-color: #56ccc2;
   display: flex;
   align-items: center;
   padding: 1em;
-  margin: 1px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
+
 .div1{
   color:black ;
 
