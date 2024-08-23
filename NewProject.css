@@ -106,13 +106,15 @@ padding:20px; margin: 1px; border: 1px solid #000033; } --> */
   height: 25px;
   width: 90px;
  }
- #inputsearch{
+ #inputSearch{
   float: right;
   font-size: 0.9 em;
  }
-#submitsearch{
+#submitSearch{
   float: right;
   font-size: 0.9 em;
+  height: 25px;
+  width: 90px;
 }
 
 div {
