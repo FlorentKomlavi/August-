@@ -37,7 +37,7 @@ body 	{
   width: auto;
   height: auto;
   background-color:rgb(195, 226, 154);
-  background-image: url("onion.jpg");
+  background-image: url("");
   font-family: Verdana, Arial, sans-serif;
   margin-left: 0.10em;
   margin: right 5px;
@@ -70,7 +70,6 @@ li{
 main{
   margin: 0 auto;
   font-family:'Times New Roman', Times, serif;
-  
   padding: 1px 1px;
   min-height: 100vh;
   display:flex;
@@ -90,7 +89,14 @@ p {
 }
 img{
   text-align: auto;
- 
+  height: 150px;
+  width: 150px;
+}
+#drapeau{
+  width: 90px;
+  height: auto;
+  float: left;
+  
 }
 /*section{
  justify-content: center;
@@ -119,7 +125,7 @@ padding:20px; margin: 1px; border: 1px solid #000033; } --> */
 
 div {
   border: #0d0d0c ;
-  background-color: #56ccc2;
+  text-align: left;
   display: flex;
   align-items: center;
   padding: 1em;
@@ -148,7 +154,7 @@ div {
  section{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  
  }
 footer  {
   color:blue;
